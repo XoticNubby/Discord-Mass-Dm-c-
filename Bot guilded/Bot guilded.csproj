@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Bot_guilded</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Anarchy-wrapper" Version="0.8.1" />
+    <PackageReference Include="Guilded.NET" Version="0.2.2" />
+    <PackageReference Include="Guilded.NET.API" Version="0.2.0" />
+    <PackageReference Include="Guilded.NET.Base" Version="0.2.3" />
+    <PackageReference Include="Guilded.NET.Objects" Version="0.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Leaf.xNet">
+      <HintPath>D:\junk\paste.wtf\Debug\Leaf.xNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
